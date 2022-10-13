@@ -19,6 +19,10 @@ lib.log('!','Done!')
 names = []
 page_contents = []
 
+def hang():
+    lib.log('*','Program is hanging, check program output above to see what might have went wrong!')
+    while True: pass
+
 index = 0
 lib.log('*','Indexing HTML Files...')
 for i in os.listdir():
@@ -28,11 +32,11 @@ for i in os.listdir():
         continue
     lib.log('!','HTML File found! Indexing..')
     names.append(i.replace('.html',''))
-##    file = open(i)
-##    page_contents.append(file.read())
-##    file.close()
     lib.log('!','File Contents and name indexed!')
-
+if names == []:
+    lib.log('*','No HTML Files In folder! Aborting...')
+    hang()
+    
 lib.log('!','Indexing complete!')
 
 lib.log('*','Generating functions...')
@@ -49,4 +53,5 @@ for i in names:
     index = index + 1
 lib.log('!','Complete! Closing file...')
 app.close()
-lib.log('!','All done!!!')
+lib.log('!','All done!!! You can close this window!')
+hang()

@@ -1,5 +1,5 @@
 # Python Flask Server Generator
-### Generate server code and automatically define and route in flask!
+### Generate server code and automatically define page functions and route in flask!
 
 ## Features:
 - [X] Only need to code html
@@ -25,6 +25,9 @@ It just appends code to app.py and then it all works! Ur welcome!!!
 ### La Script:
 - it may not be 100% reliable...
 - Havent done big testing on it, thats why its public rn
+### Example site:
+- You can use this to learn how this works!
+- I cant code html so someone else can make a generator for it and then we can combine them and make a sussy website maker
 
 ### Usage:
 - Overall, Dont use it! (Unless you ask me and i say yes)

@@ -38,6 +38,8 @@ http://127.0.0.1:5000/
 - [X] Automatically send html page to client web-browsers
 - [X] Is cool
 - [X] ALOT of logging in generator
+- [X] Username auth support (no psw yet)
+- [X] Config!
 - [ ] Automatically port forward / host on public address (thats ur problem)
 
 

@@ -1,3 +1,8 @@
+### Flask server generator by Omena0
+### https://github.com/Omena0/flask-server-generator
+### Usage permitted with apropriate credit (dont remove theese comments)
+
+
 print('Initializing... [OS, Lib]')
 import os
 import lib
@@ -30,8 +35,9 @@ app = open('app.py','wb')
 lib.log('*','Initializing app...')
 
 header = '''
-#Generated with flask-server-generator!
-#View it on github: https://github.com/Omena0/flask-server-generator
+### This file was generated with the Flask-Server-Generator!
+### https://github.com/Omena0/flask-server-generator
+### Usage permitted with apropriate credit (dont remove theese comments)
 '''
 code = '''
 from flask import *

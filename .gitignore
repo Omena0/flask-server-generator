@@ -1,0 +1,10 @@
+.git/*
+build/*
+spec/*
+__pycache__/*
+.gitattributes
+build.cmd
+
+
+
+

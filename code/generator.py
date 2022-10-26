@@ -9,10 +9,10 @@ import lib
 
 ####### CONFIG #######
 
-# Root site function name in app.py
+# What to call the root page function
 __root__ = '__home__'
 
-# Name of html file set as root, recommended to set as '' or '__home__' 
+# Name of html file set as root, recommended to set as empty or '__home__' 
 rootname = ''#.html
 
 # Where to go after login

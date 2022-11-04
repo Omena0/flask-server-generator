@@ -1,7 +1,7 @@
 .git/*
 build/*
 spec/*
-__pycache__/*
+code/__pycache__/*
 .gitattributes
 build.cmd
 

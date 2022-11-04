@@ -1,6 +1,7 @@
 
-#Generated with flask-server-generator!
-#View it on github: https://github.com/Omena0/flask-server-generator
+### This file was generated with the Flask-Server-Generator!
+### https://github.com/Omena0/flask-server-generator
+### Usage permitted with apropriate credit (dont remove theese comments)
 
 from flask import *
 import lib
